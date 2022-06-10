@@ -1,7 +1,9 @@
+/* ========== Name and Job Title ========== */
 header {
     border-bottom: solid 3px;
 }
 
+/* ========== Boxes ========== */
 .Box {
     border: 2px solid black;
     width: 100px;
