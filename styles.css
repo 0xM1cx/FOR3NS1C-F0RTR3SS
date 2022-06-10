@@ -1,3 +1,16 @@
 header {
     border-bottom: solid 3px;
 }
+
+.Box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.root-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
