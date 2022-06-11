@@ -1,7 +1,15 @@
+#body {
+    background-color: #0C0C0C;
+    color: white;
+}
+
 /* ========== Top Menu Bar ========== */
-.col {
+.navbar {
     height: 64px;
-    border-bottom: solid black;
+    border-bottom: solid white;
+}
+.navbar-brand {
+    color: white;
 }
 /* ========== Blog Boxes ========== */
 .Box {
@@ -14,3 +22,9 @@
 .Box:hover{
     box-shadow: 5px 5px 5px #0303be;
 }
+
+#Team_Logo {
+    width: 90;
+    height: 75;
+}
+
