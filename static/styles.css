@@ -1,17 +1,8 @@
-/* ========== General Design ========== */
-.container {
-    background-color: #000000;
-    color: #0303be;
+/* ========== Top Menu Bar ========== */
+.col {
+    height: 64px;
+    border-bottom: solid black;
 }
-#body {
-    background-color: #000000;
-}
-
-/* ========== Name and Job Title ========== */
-header {
-    border-bottom: solid 3px;
-}
-
 /* ========== Blog Boxes ========== */
 .Box {
     border: 2px solid #0303be;
