@@ -1,30 +1,26 @@
+/* ========== General Design ========== */
+.container {
+    background-color: black;
+    color: #0303be;
+}
 #body {
-    background-color: #0C0C0C;
-    color: white;
+    background-color: #000000;
+    margin: 0;
 }
 
-/* ========== Top Menu Bar ========== */
-.navbar {
-    height: 64px;
-    border-bottom: solid white;
+/* ========== Name and Job Title ========== */
+header {
+    border-bottom: solid 3px;
 }
-.navbar-brand {
-    color: white;
-}
+
 /* ========== Blog Boxes ========== */
-.Box {
-    border: 2px solid #0303be;
+.writeup-cards {
+    border: 1px solid #0303be;
     width: 100%;
     height: 100px;
-    margin: 10px;
 }
 
-.Box:hover{
+.writeup-cards:hover{
     box-shadow: 5px 5px 5px #0303be;
-}
-
-#Team_Logo {
-    width: 90;
-    height: 75;
 }
 
