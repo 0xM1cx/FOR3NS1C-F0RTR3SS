@@ -9,10 +9,11 @@
     z-index: 0;
 }
 
-.navbar {
+.navbar, .main-content> .row {
     margin: 0 100px;
 }
 
-.col-1{
-    z-index: 1;
+.main-content {
+    border: solid white 3px;
+    height: 100%;
 }
