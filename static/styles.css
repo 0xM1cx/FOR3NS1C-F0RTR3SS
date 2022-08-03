@@ -2,19 +2,29 @@
 .container-fluid {
     background-color: black;
     color: white;
+    font-family: Chakra Petch;
 }
 
-.nav-link, nav {
+/* ========== Navigation Bar ========== */
+.li {
     color: white;
-    z-index: 0;
 }
-
+.li :hover {
+    color: #31ADF3;
+}
 .navbar, .main-content> .row {
     margin: 0 100px;
 }
 
+/* ===== Main Content ===== */
 .main-content {
     border: solid white 3px;
     max-height: 100%;
 }
 
+
+.pfp :hover {
+    box-shadow: 10px 8px #31ADF3;
+    -webkit-transition : box-shadow ease-in-out .50s;
+    transition : box-shadow ease-in-out .50s;
+}
