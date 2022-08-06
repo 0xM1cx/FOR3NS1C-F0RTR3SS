@@ -6,13 +6,13 @@
 }
 
 /* ========== Navigation Bar ========== */
-.li {
+.nav-link {
     color: white;
 }
-.li :hover {
+.nav-link:hover {
     color: #31ADF3;
 }
-.navbar, .main-content> .row {
+.navbar, .main-content> .row, .main-content {
     margin: 0 100px;
 }
 
@@ -22,9 +22,18 @@
     max-height: 100%;
 }
 
-
+/* ========= Profile Picture ========== */
+.pfp > img {
+    height: 300px;
+    width: auto;
+}
 .pfp :hover {
     box-shadow: 10px 8px #31ADF3;
     -webkit-transition : box-shadow ease-in-out .50s;
     transition : box-shadow ease-in-out .50s;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
